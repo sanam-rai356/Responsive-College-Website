@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLEGE WEBSITE ( CONTACT )</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+</head>
+<body>
+    <!-- header section -->
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt=""></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa-regular fa fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+    <!-- header section -->
+    
+    <!-- contact us section -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202844.46260446458!2d-122.20590856602577!3d37.40296192995812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20CA%2C%20USA!5e0!3m2!1sen!2snp!4v1716220418632!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- contact us section -->
+
+    <section class="contact_us">
+        <div class="row">
+            <div class="contact_col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ ROAD, ABC BUILDING</h5>
+                        <p>Silicon Valley</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>0099995566</h5>
+                        <p>Monday to Satuday, 10AM to 6PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>something@gmail.com</h5>
+                        <p>Contact us for more enquiry</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact_col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="0" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero_btn red_btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laborum sit, ullam ab quos voluptas quibusdam  eaque consequatur, quo <br>possimus tempora sapiente! Aperiam incidunt  accusamus cum libero consequatur dicta aut.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> by Easy Tutorial</p>
+    </section>
+    <!-- Footer -->
+
+
+
+
+<!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById('navLinks');
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLEGE WEBSITE ( BLOG )</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+</head>
+<body>
+    <!-- header section -->
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt=""></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa-regular fa fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR CERTIFICATE AND ONLINE PROGRAMS</h1>
+    </section>
+    <!-- header section -->
+    
+    <!-- blog page content -->
+    <div class="blog_content">
+        <div class="row">
+            <div class="blog_left">
+                <img src="./eduford_img/certificate.jpg" alt="">
+                <h2>OUR CERTIFICATE AND ONLINE PROGRAMS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem dolore perspiciatis fugiat asperiores, iusto ipsam doloribus tempora alias perferendis ad laboriosam ex in consequuntur inventore esse architecto ipsum? Consequatur laboriosam, ipsa velit libero earum consequuntur recusandae perferendis enim quaerat. Totam adipisci sit fuga perferendis sunt obcaecati commodi error quos beatae enim laborum accusantium delectus consequatur sint, dolorem quibusdam harum doloremque vel fugiat, dignissimos voluptas voluptate aperiam? Maxime, esse nostrum!</p>
+
+                <br>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem dolore perspiciatis fugiat asperiores, iusto ipsam doloribus tempora alias perferendis ad laboriosam ex in consequuntur inventore esse architecto ipsum? Consequatur laboriosam, ipsa velit libero earum consequuntur recusandae perferendis enim quaerat. Totam adipisci sit fuga perferendis sunt obcaecati commodi error quos beatae enim laborum accusantium delectus consequatur sint, dolorem quibusdam harum doloremque vel fugiat, dignissimos voluptas voluptate aperiam? Maxime, esse nostrum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, harum.</p>
+
+                <br>
+
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem dolore perspiciatis fugiat asperiores, iusto ipsam doloribus tempora alias perferendis ad laboriosam ex in consequuntur inventore esse architecto ipsum? Consequatur laboriosam, ipsa velit libero earum consequuntur recusandae perferendis enim quaerat. Totam adipisci sit fuga perferendis sunt obcaecati commodi error quos beatae enim laborum accusantium delectus consequatur sint, dolorem quibusdam harum doloremque vel fugiat, dignissimos voluptas voluptate aperiam? Maxime, esse nostrum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, harum.</p>
+
+                <br>
+
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem dolore perspiciatis fugiat asperiores, iusto ipsam doloribus tempora alias perferendis ad laboriosam ex in consequuntur inventore esse architecto ipsum? Consequatur laboriosam, ipsa velit libero earum consequuntur recusandae perferendis enim quaerat. Totam adipisci sit fuga perferendis sunt obcaecati commodi error quos beatae enim laborum accusantium delectus consequatur sint, dolorem quibusdam harum doloremque vel fugiat, dignissimos voluptas voluptate aperiam? Maxime, esse nostrum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, harum.</p>
+
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis accusantium dicta quod blanditiis qui culpa. Obcaecati ut nisi a deserunt provident, molestiae temporibus odio odit. Odit, consequatur. Doloribus, repellat? Delectus?</p>
+
+                <div class="comment_box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment_form">
+                        <input type="text" placeholder="Enter Name" name="" id="">
+                        <input type="email" placeholder="Enter Email" name="" id="">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero_btn red_btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog_right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>20</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>30</span>
+                </div>
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>22</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog page content -->
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laborum sit, ullam ab quos voluptas quibusdam  eaque consequatur, quo <br>possimus tempora sapiente! Aperiam incidunt  accusamus cum libero consequatur dicta aut.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> by Easy Tutorial</p>
+    </section>
+    <!-- Footer -->
+
+
+
+
+<!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById('navLinks');
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLEGE WEBSITE ( ABOUT )</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+</head>
+<body>
+    <!-- header section -->
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt=""></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa-regular fa fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>>
+                </ul>
+            </div>
+            <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- header section -->
+    
+    <!-- about us content -->
+    <section class="about_us">
+        <div class="row">
+            <div class="about_col">
+                <h1 >We are the World's largest <br> University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore explicabo laborum, cumque enim debitis eos, soluta sunt repellat provident ut iusto officia temporibus voluptates doloremque? Blanditiis neque est amet numquam adipisci vitae consectetur dolores totam, omnis quasi, recusandae dolore explicabo maxime doloremque dicta quod assumenda. Alias veniam quis dolorum.</p>
+                <a href="" class="hero_btn red_btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about_col">
+                <img src="./eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- about us content -->
+    
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laborum sit, ullam ab quos voluptas quibusdam  eaque consequatur, quo <br>possimus tempora sapiente! Aperiam incidunt  accusamus cum libero consequatur dicta aut.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> by Easy Tutorial</p>
+    </section>
+    <!-- Footer -->
+
+
+
+
+<!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById('navLinks');
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
